@@ -22,11 +22,5 @@ Delete from AddressBookTable where FirstName='Manish';
 --UC6 Retrive Person Belonging by city or state
 select * from AddressBookTable where state='Maharashtra';
 select * from AddressBookTable where City='Panvel';
---UC7 Size of AddressBOOk
-Select Count(*) as AddressBookSize from AddressBookTable ; 
-Select Count(*) as AddressBookSizebyState from AddressBookTable where State ='Maharashtra'; 
-Select Count(*) as AddressBookSizebyCity from AddressBookTable where City ='Panvel'; 
---UC8 Sorted Alphabetically by persons name in a city
-SELECT * FROM AddressBookTable
-ORDER BY City,FirstName;
+
 
