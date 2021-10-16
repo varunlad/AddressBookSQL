@@ -26,7 +26,5 @@ select * from AddressBookTable where City='Panvel';
 Select Count(*) as AddressBookSize from AddressBookTable ; 
 Select Count(*) as AddressBookSizebyState from AddressBookTable where State ='Maharashtra'; 
 Select Count(*) as AddressBookSizebyCity from AddressBookTable where City ='Panvel'; 
---UC8 Sorted Alphabetically by persons name in a city
-SELECT * FROM AddressBookTable
-ORDER BY City,FirstName;
+
 
